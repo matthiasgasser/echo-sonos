@@ -122,51 +122,30 @@ ChangeRoomAndServiceIntent change service to {Service} and room to {Room}
 ChangeRoomAndServiceIntent change room to the {Room} and service to {Service}
 ChangeRoomAndServiceIntent change service to {Service} and room to the {Room}
 
-ResumeAllIntent resume all
-ResumeAllIntent contimue all
-ResumeAllIntent contimue spielimg all
-ResumeAllIntent contimue spielimg all the music
+ResumeAllIntent spiel weiter alle
+ResumeAllIntent weitermachen
+ResumeAllIntent überall weiterspielen
+ResumeAllIntent weiter überall
 
-ResumeIntent contimue the {Room}
-ResumeIntent contimue im the {Room}
-ResumeIntent contimue the music im {Room}
-ResumeIntent contimue the music im the {Room}
-ResumeIntent contimue spielimg the {Room}
-ResumeIntent contimue spielimg im the {Room}
-ResumeIntent contimue spielimg the music im {Room}
-ResumeIntent contimue spielimg the music im the {Room}
-ResumeIntent resume the {Room}
-ResumeIntent resume im the {Room}
-ResumeIntent resume the music im {Room}
-ResumeIntent resume the music im the {Room}
+ResumeIntent spiel weiter im {Room}
+ResumeIntent weiter im {Room}
+ResumeIntent musik im {Room}
 
-ResumeIntent contimue
-ResumeIntent contimue the music
-ResumeIntent contimue spielimg
-ResumeIntent contimue spielimg
-ResumeIntent resume
-ResumeIntent resume the music
+ResumeIntent weiter
+ResumeIntent wieder musik
 
-PauseAllIntent pause all
-PauseAllIntent pause all the music
-PauseAllIntent stop all
-PauseAllIntent stop all the music 
+PauseAllIntent pause alle
+PauseAllIntent pausiere alle
+PauseAllIntent stoppe alle
+PauseAllIntent stoppe die musik überall 
 
-PauseIntent pause im the {Room}
 PauseIntent pause im {Room}
-PauseIntent pause the music im {Room}
-PauseIntent stop im the {Room}
 PauseIntent stop im {Room}
-PauseIntent stop spielimg im the {Room}
-PauseIntent stop spielimg im {Room}
-PauseIntent stop the music im {Room}
 
 PauseIntent pause
-PauseIntent pause
-PauseIntent pause the music
+PauseIntent pausiere die musik
 PauseIntent stop
-PauseIntent stop
-PauseIntent stop the music
+PauseIntent stop die musik
 
 VolumeUpIntent turn it up im {Room}
 VolumeUpIntent turn it up im the {Room}
