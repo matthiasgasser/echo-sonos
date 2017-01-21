@@ -33,14 +33,12 @@ ArtistIntent spiel künstler {Name} im {Room}
 
 ArtistIntent spiel künstler {Name}
 
-TrackIntent spiel track {Name} im the {Room}
-TrackIntent spiel track {Name} im {Room}
+TrackIntent spiel song {Name} im the {Room}
+TrackIntent spiel song {Name} im {Room}
 
-TrackIntent spiel track {Name}
+TrackIntent spiel song {Name}
 
-MusicRadioIntent spiel {Name} radio im the {Room}
 MusicRadioIntent spiel {Name} radio im {Room}
-
 MusicRadioIntent spiel {Name} radio
 
 PlayPresetIntent spiel preset {Preset}
@@ -107,8 +105,9 @@ PandoraThumbsDownIntent give diesem song a thumbs down im the {Room}
 PandoraThumbsDownIntent give the current song a thumbs down
 PandoraThumbsDownIntent give diesem song a thumbs down
 
-ChangeRoomIntent change room to {Room}
-ChangeRoomIntent change room to the {Room}
+ChangeRoomIntent wechsle raum zu {Room}
+ChangeRoomIntent wechsel raum zu {Room}
+ChangeRoomIntent gehe zu {Room}
 
 ChangeServiceIntent change music to {Service}
 ChangeServiceIntent change service to {Service}
@@ -122,8 +121,9 @@ ChangeRoomAndServiceIntent change service to {Service} and room to {Room}
 ChangeRoomAndServiceIntent change room to the {Room} and service to {Service}
 ChangeRoomAndServiceIntent change service to {Service} and room to the {Room}
 
-ResumeAllIntent spiel weiter alle
+ResumeAllIntent spiel alle weiter
 ResumeAllIntent weitermachen
+ResumeAllIntent alle weiter
 ResumeAllIntent überall weiterspielen
 ResumeAllIntent weiter überall
 
@@ -147,111 +147,51 @@ PauseIntent pausiere die musik
 PauseIntent stop
 PauseIntent stop die musik
 
-VolumeUpIntent turn it up im {Room}
-VolumeUpIntent turn it up im the {Room}
-VolumeUpIntent turn the volume up im {Room}
-VolumeUpIntent turn the volume up im the {Room}
-VolumeUpIntent louder im {Room}
-VolumeUpIntent louder im the {Room}
-VolumeUpIntent volume up im {Room}
-VolumeUpIntent volume up im the {Room}
-VolumeUpIntent raise volume im the {Room}
-VolumeUpIntent raise volume im {Room}
+VolumeUpIntent lauter im {Room}
+VolumeUpIntent bitte lauter im {Room}
+VolumeUpIntent lauter {Room}
+VolumeUpIntent schalte bitte lauter im {Room}
 
-VolumeUpIntent turn it up
-VolumeUpIntent turn the volume up
-VolumeUpIntent louder
-VolumeUpIntent volume up
-VolumeUpIntent raise volume
+VolumeUpIntent lauter
+VolumeUpIntent bitte lauter
+VolumeUpIntent schalte bitte lauter
+VolumeUpIntent ich kann dich nicht hören
 
-VolumeDownIntent turn it down im {Room}
-VolumeDownIntent turn it down im the {Room}
-VolumeDownIntent turn the volume down im {Room}
-VolumeDownIntent turn the volume down im the {Room}
-VolumeDownIntent softer im {Room}
-VolumeDownIntent softer im the {Room}
-VolumeDownIntent quieter im {Room}
-VolumeDownIntent quieter im the {Room}
-VolumeDownIntent volume down im {Room}
-VolumeDownIntent volume down im the {Room}
-VolumeDownIntent lower volume im the {Room}
-VolumeDownIntent lower volume im {Room}
+VolumeDownIntent leiser im {Room}
+VolumeDownIntent leise {Room}
+VolumeDownIntent bitte leiser im {Room}
 
-VolumeDownIntent turn it down
-VolumeDownIntent turn the volume down
-VolumeDownIntent softer
-VolumeDownIntent quieter
-VolumeDownIntent volume down
-VolumeDownIntent lower volume
+VolumeDownIntent leiser
+VolumeDownIntent weniger laut
+VolumeDownIntent weniger laut bitte
+VolumeDownIntent bitte weniger laut
 
-SetVolumeIntent set volume to {Percent} im {Room}
-SetVolumeIntent set volume to {Percent} percent im {Room}
-SetVolumeIntent set volume to {Percent} im the {Room}
-SetVolumeIntent set volume to {Percent} percent im the {Room}
-SetVolumeIntent change volume to {Percent} im {Room}
-SetVolumeIntent change volume to {Percent} percent im {Room}
-SetVolumeIntent change volume to {Percent} im the {Room}
-SetVolumeIntent change volume to {Percent} percent im the {Room}
-SetVolumeIntent change the volume to {Percent} im {Room}
-SetVolumeIntent change the volume to {Percent} percent im {Room}
-SetVolumeIntent change the volume to {Percent} im the {Room}
-SetVolumeIntent change the volume to {Percent} percent im the {Room}
-SetVolumeIntent turn it up to {Percent} im {Room}
-SetVolumeIntent turn it up to {Percent} percent im {Room}
-SetVolumeIntent turn it up to {Percent} im the {Room}
-SetVolumeIntent turn it up to {Percent} percent im the {Room}
-SetVolumeIntent turn it down to {Percent} im {Room}
-SetVolumeIntent turn it down to {Percent} percent im {Room}
-SetVolumeIntent turn it down to {Percent} im the {Room}
-SetVolumeIntent turn it down to {Percent} percent im the {Room}
 
-SetVolumeIntent set volume to {Percent}
-SetVolumeIntent set volume to {Percent} percent
-SetVolumeIntent change volume to {Percent}
-SetVolumeIntent change volume to {Percent} percent
-SetVolumeIntent change the volume to {Percent}
-SetVolumeIntent change the volume to {Percent} percent
-SetVolumeIntent turn it up to {Percent}
-SetVolumeIntent turn it up to {Percent} percent
-SetVolumeIntent turn it down to {Percent}
-SetVolumeIntent turn it down to {Percent} percent
+SetVolumeIntent setz die lautsärke zu {Percent} im {Room}
+SetVolumeIntent setz die lautsärke zu {Percent} prozent im {Room}
+SetVolumeIntent ändere die lautsärke zu {Percent} prozent im {Room}
 
-NextTrackIntent go to next track im {Room}
-NextTrackIntent go to next track im the {Room}
-NextTrackIntent go to the next track im {Room}
-NextTrackIntent go to the next track im the {Room}
-NextTrackIntent skip to next track im {Room}
-NextTrackIntent skip to next track im the {Room}
-NextTrackIntent skip to the next track im {Room}
-NextTrackIntent skip to the next track im the {Room}
-NextTrackIntent skip im {Room}
-NextTrackIntent skip im the {Room}
-NextTrackIntent next im {Room}
-NextTrackIntent next im the {Room}
-NextTrackIntent next track im {Room}
-NextTrackIntent next track im the {Room}
+SetVolumeIntent setz die lautsärke zu {Percent}
+SetVolumeIntent setz die lautsärke zu {Percent} prozent
+
+NextTrackIntent nächstes lied im {Room}
 NextTrackIntent next song im {Room}
-NextTrackIntent next song im the {Room}
-NextTrackIntent skip diesem track im {Room}
-NextTrackIntent skip diesem track im the {Room}
-NextTrackIntent skip song im {Room}
-NextTrackIntent skip song im the {Room}
-NextTrackIntent skip diesem song im {Room}
-NextTrackIntent skip diesem song im the {Room}
+NextTrackIntent skip im {Room}
+NextTrackIntent nächstes im {Room}
 
-NextTrackIntent go to next track
-NextTrackIntent go to the next track
-NextTrackIntent skip to next track
-NextTrackIntent skip to the next track
+NextTrackIntent skip
+NextTrackIntent das gefällt mir nicht
+NextTrackIntent bitte weiter
+NextTrackIntent oh mein gott
 NextTrackIntent skip
 NextTrackIntent next
 NextTrackIntent next track
 NextTrackIntent next song
-NextTrackIntent skip diesem track
+NextTrackIntent skip diesen track
 NextTrackIntent skip song
-NextTrackIntent skip diesem song
+NextTrackIntent skip diesen song
 
-PreviousTrackIntent go to previous track im {Room}
+PreviousTrackIntent spiele voriges lied im {Room}
 PreviousTrackIntent go to previous track im the {Room}
 PreviousTrackIntent go to the previous track im {Room}
 PreviousTrackIntent go to the previous track im the {Room}
@@ -291,17 +231,19 @@ ClearQueueIntent clear the queue
 ClearQueueIntent clear queue
 ClearQueueIntent clear spiellist
 
-WhatsPlayingIntent what's playing
-WhatsPlayingIntent what song is diesem
-WhatsPlayingIntent what band is diesem
-WhatsPlayingIntent who's spielimg
-WhatsPlayingIntent what am i hearimg
+WhatsPlayingIntent was läuft gerade
+WhatsPlayingIntent welches lied ist das
+WhatsPlayingIntent wer singt das
+WhatsPlayingIntent was höre ich gerade
 
 MuteIntent mute im {Room}
 MuteIntent mute im the {Room}
 MuteIntent mute {Room}
 MuteIntent mute the {Room}
+MuteIntent stumm im {Room}
 
+MuteIntent bitte stumm
+MuteIntent stumm
 MuteIntent mute
 
 UnmuteIntent unmute im {Room}
@@ -358,7 +300,7 @@ PlayInRoomIntent spiel im {Room}
 PlayInRoomIntent spiel im the {Room}
 PlayInRoomIntent to spiel im {Room}
 PlayInRoomIntent to spiel im the {Room}
-PlayInRoomIntent also spiel im {Room}
+PlayInRoomIntent spiel auch im {Room}
 PlayInRoomIntent also spiel im the {Room}
 
 LineInIntent {Room} use line-in
